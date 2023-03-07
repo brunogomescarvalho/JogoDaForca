@@ -1,0 +1,15 @@
+C:\Users\7brun\OneDrive\Área de Trabalho\JogoDaForca\bin\Debug\net7.0\JogoDaForca.exe
+C:\Users\7brun\OneDrive\Área de Trabalho\JogoDaForca\bin\Debug\net7.0\JogoDaForca.deps.json
+C:\Users\7brun\OneDrive\Área de Trabalho\JogoDaForca\bin\Debug\net7.0\JogoDaForca.runtimeconfig.json
+C:\Users\7brun\OneDrive\Área de Trabalho\JogoDaForca\bin\Debug\net7.0\JogoDaForca.dll
+C:\Users\7brun\OneDrive\Área de Trabalho\JogoDaForca\bin\Debug\net7.0\JogoDaForca.pdb
+C:\Users\7brun\OneDrive\Área de Trabalho\JogoDaForca\obj\Debug\net7.0\JogoDaForca.csproj.AssemblyReference.cache
+C:\Users\7brun\OneDrive\Área de Trabalho\JogoDaForca\obj\Debug\net7.0\JogoDaForca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\7brun\OneDrive\Área de Trabalho\JogoDaForca\obj\Debug\net7.0\JogoDaForca.AssemblyInfoInputs.cache
+C:\Users\7brun\OneDrive\Área de Trabalho\JogoDaForca\obj\Debug\net7.0\JogoDaForca.AssemblyInfo.cs
+C:\Users\7brun\OneDrive\Área de Trabalho\JogoDaForca\obj\Debug\net7.0\JogoDaForca.csproj.CoreCompileInputs.cache
+C:\Users\7brun\OneDrive\Área de Trabalho\JogoDaForca\obj\Debug\net7.0\JogoDaForca.dll
+C:\Users\7brun\OneDrive\Área de Trabalho\JogoDaForca\obj\Debug\net7.0\refint\JogoDaForca.dll
+C:\Users\7brun\OneDrive\Área de Trabalho\JogoDaForca\obj\Debug\net7.0\JogoDaForca.pdb
+C:\Users\7brun\OneDrive\Área de Trabalho\JogoDaForca\obj\Debug\net7.0\JogoDaForca.genruntimeconfig.cache
+C:\Users\7brun\OneDrive\Área de Trabalho\JogoDaForca\obj\Debug\net7.0\ref\JogoDaForca.dll
