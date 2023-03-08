@@ -1,16 +1,13 @@
-﻿
-namespace JogoDaForca
+﻿namespace JogoDaForca
 {
-    public class Program
+    public partial class Program
     {
         static void Main(string[] args)
         {
+            List<Jogada> jogadas = Jogada.ConstruirJogadas();
+            Jogada jogada = Jogada.SortearJogada(jogadas);
 
-            Console.Clear();
-            Console.WriteLine("Digite a palavra para jogar");
-            string palavra = Console.ReadLine()!;
-
-            char[] letrasOcultas = new char[palavra.Length];
+            char[] letrasOcultas = new char[jogada.Palavra.Length];
             int tentativas = 0;
 
             for (int i = 0; i < letrasOcultas.Length; i++)
@@ -22,19 +19,21 @@ namespace JogoDaForca
             {
                 Console.Clear();
 
+                System.Console.WriteLine($"A dica é: {jogada.Dica} \n\n");
+
                 foreach (var item in letrasOcultas)
                 {
                     Console.Write(item + " ");
                 }
 
-                Console.WriteLine("\nDigite a letra escolhida");
+                Console.WriteLine("\n\nDigite a letra escolhida");
                 char letra = Convert.ToChar(Console.ReadLine()!);
 
                 bool acertou = false;
 
-                for (int i = 0; i < palavra.Length; i++)
+                for (int i = 0; i < jogada.Palavra.Length; i++)
                 {
-                    if (palavra[i] == letra)
+                    if (jogada.Palavra[i] == letra)
                     {
                         letrasOcultas[i] = letra;
                         acertou = true;
@@ -43,12 +42,12 @@ namespace JogoDaForca
 
                 if (!acertou)
                 {
-                    Console.WriteLine($"Fim de jogo, {++tentativas} tentativas efetuadas.\nA palavra era {palavra}\n\n");
+                    Console.WriteLine($"Fim de jogo, {tentativas++} tentativas efetuadas.\nA palavra era {jogada.Palavra}\n\n");
                 }
 
-                if (new string(letrasOcultas) == palavra)
+                if (new string(letrasOcultas) == jogada.Palavra)
                 {
-                    Console.WriteLine($"Parabéns, você acertou a palavra {palavra}!");
+                    Console.WriteLine($"Parabéns, você acertou a palavra {jogada.Palavra}!\n\n");
                     break;
                 }
             }
